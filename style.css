@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: antiquewhite;
+    font-size: xxx-large;
+    line-height: 200px;
+    height: 200px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
+.choice {
+    height: 160px;
+    width: 160px;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 60%;
+}
+
+.choice:hover {
+    opacity: 70%;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+}
+
+.score-sec {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    gap: 7rem;
+}
+
+.disp-msg {
+    margin-top: 3rem;
+    height: 100px;
+    line-height: 100px;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(61, 177, 171);
+    border-radius: 1rem;
+    color: white; /* Ensure text is visible on all background colors */
+    padding: 0 1rem; /* Add padding for better text spacing */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
